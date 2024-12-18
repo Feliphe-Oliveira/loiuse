@@ -20,10 +20,11 @@ html,body, main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: gray;
+    overflow: hidden;
 }
 
 main{
-    width: 400px;
+    width: 470px;
 }
 
 header{
