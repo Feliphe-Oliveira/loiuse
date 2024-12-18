@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grand+Hotel&family=Kalnia+Glaze:wght@100..700&display=swap');
+/*titulo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --titulo: "Caveat", cursive;
+    --poemas: "Sriracha", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body, main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header{
+    font-family: var(--titulo);
+    font-size: 2em;
+    text-align: center;
+    border: 5px solid rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    height: 100px;
+    background-image: url(../imagem/vecteezy_red-and-blue-firework-in-black-background_10074458.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+    text-align: justify;
+    font-variant-caps: all-small-caps;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+p{
+    font-family: var(--poemas);
+    font-size: 1.8em;
+    padding-left: 10px ;
+    line-height: 2em;
+    width: 400px;
+}
+
+.destaque{
+    background-color: black;
+    color: white;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.destaque p {
+    background-color: rgba(0, 0, 0, 0.353);
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#img01{
+    background-image: url(../imgs/img01.jpg);
+    background-repeat: no-repeat;
+}
+
+#img02{
+    background-image: url(../imgs/img02.jpg);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1600px)  {
+
+    #img01{
+        background-image: none;
+    }
+
+    #img02{
+        background-image: none;
+    }
+}
+
+
