@@ -19,6 +19,7 @@
 html,body, main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
+    width: 100vw;
     background-color: gray;
 }
 
@@ -98,15 +99,6 @@ a:hover{
 }
 
 
-@media screen and (min-width: 800px) and (max-width: 1600px)  {
 
-    #img01{
-        background-image: none;
-    }
-
-    #img02{
-        background-image: none;
-    }
-}
 
 
